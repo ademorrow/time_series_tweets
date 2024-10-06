@@ -1,2 +1,1 @@
-# time_series_tweets
-End to End ML Pipeline:  Time-Series Correlation between Superbowl Scores and Tweets
+A time series correlation between Superbowl scores and tweets was modeled using Light GBM.  Using a manually created game event log from the ESPN website: https://www.espn.com/nfl/playbyplay/_/gameId/400749027, tweet metadata was aligned and combined with the event log, and the combined dataset was used to predict, given a tweet, which team is winning the football game.  A generative model was also used to generate a sample tweet from the Superbowl using a sample game score.
